@@ -1,0 +1,14 @@
+server:
+  port: 5000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres-db.cbggkklnv9pf.eu-west-2.rds.amazonaws.com:5432/svoshCloudDb
+    password: postgres
+    username: postgres
+  jpa:
+    open-in-view: false
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: create
+
